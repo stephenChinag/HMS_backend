@@ -1,7 +1,6 @@
 import { useRef, useState } from "react";
 
 export default function Player() {
-  // const [submmited, setSubmmited] = useState(false);
   const [name, setName] = useState();
   const playerName = useRef();
 
