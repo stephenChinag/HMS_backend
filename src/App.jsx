@@ -1,13 +1,13 @@
-import Player from "./components/Player.jsx";
-import Component from "./components/test.jsx";
+import Header from './components/Header.jsx';
+import Login from './components/Login.jsx';
 
 function App() {
   return (
     <>
-      {/* <Player />
-      <div id="challenges"></div> */}
-
-      <Component />
+      <Header />
+      <main>
+        <Login />
+      </main>
     </>
   );
 }
