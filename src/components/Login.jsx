@@ -7,6 +7,7 @@ export default function Login() {
   function handleSubmit(e) {
     e.preventDefault();
     console.log(email.current.value, password.current.value);
+    window.alert("Wlcomer");
   }
 
   return (
